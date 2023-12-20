@@ -14,7 +14,7 @@ void ReverseArray()
     };
     for(int i = 0; i < array.Length; i++)
     {
-        array2[i] = array[num - i];
+        array2[i] = array[num - 1 - i];
         System.Console.Write(array2[i] + " ");
     }
 }
